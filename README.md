@@ -24,5 +24,5 @@
 ### Problem #1: Count Down
 - In this function you count down from the number that is given! 
 
-### Problem #1: Sum Range
+### Problem #2: Sum Range
 - In this function it will add up a numbers range 
