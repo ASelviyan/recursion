@@ -9,16 +9,16 @@ function sumRange(num){
 
 console.log(sumRange(3))
 //Ex: SumRange(3) walk through 
-        //  line 7: return 3 + sumRange(3-1 = 2)
+        //Recursive Line: return 3 + sumRange(3-1 = 2)
         //                         return 2 + sumRange(2 - 1)
         //                                         then this line hits the base case and return 1
         //                                 |
         //                                 V
-        //  line 7: return 3 + sumRange(3-1 = 2)
+        //Recursive Line: return 3 + sumRange(3-1 = 2)
         //                         return 2 + 1 = 3
         //                                 |
         //                                 V
-        // line 7: return 3 + 3
+        //Recursive Line: return 3 + 3
         // the final return is 6
 
     

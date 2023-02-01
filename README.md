@@ -26,3 +26,6 @@
 
 ### Problem #2: Sum Range
 - In this function it will add up a numbers range 
+
+### Problem #3: Factorial 
+- Given a number, return the factorial 
