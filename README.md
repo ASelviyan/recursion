@@ -17,6 +17,11 @@
 - Any time a function is invoked it is placed (pushed) on the top of the call stack. Its like a stack of papers when a function is called a new 'paper' is put on top of the stack and as soon as that 'paper' has done its purpose (aka the function has returned or has ended) then the 'paper' is removed from the top of the stack. 
 - When JavaScript sees the return keyword or when the function ends, the compiler will remove (pop)
 
+#### The Pitfalls of Recursion or Where things can go wrong
+- Having no Base Case or the Base case is wrong
+- Forgetting to return or returning the wrong thing
+- Stack over flow or stack size exceeded (to many functions are trying to be called) 
+
 #### How Recursion Works with the Call Stack
 - Your used to function being pushed in the call stack and pooped off when they are done 
 - When we write recursive functions, we keep pushing new functions into the call stack. So it keeps stacking the same function over and over
@@ -29,3 +34,6 @@
 
 ### Problem #3: Factorial 
 - Given a number, return the factorial 
+
+### Examples: Pitfalls
+- Shows examples of how you can go wrong with recursions 
